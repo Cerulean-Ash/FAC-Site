@@ -7,48 +7,118 @@
   </head>
   <body>
     <header class="flex-container">
-      <img src="" />
-      <nav></nav>
+      <nav id="navBar" class="sideNav">
+        <ul class="navList">
+          <li class="menu"><a href="#" id="a">About Me</a></li>
+          <li class="menu"><a href="#" id="b">FAC</a></li>
+          <li class="menu"><a href="#" id="c">My Progress</a></li>
+          <li class="menu"><a href="#" id="d">Contacts</a></li>
+        </ul>
+        <div class="toTop">
+          <a href="#" id="e">Jump to Top</a>
+        </div>
+      </nav>
     </header>
-    <nav id="navBar" class="sideNav">
-      <ul>
-        <li class="menu"><a href="#" id="a">Greetings</a></li>
-        <li class="menu"><a href="#" id="b">FAC</a></li>
-        <li class="menu"><a href="#" id="c">Progress</a></li>
-        <li class="menu"><a href="#" id="d">Contacts</a></li>
-        <li class="menu"><a href="#" id="e">Jump To Top</a></li>
-      </ul>
-    </nav>
+
     <section id="greetings">
       <div class="hello">
         <h1>Hi! I'm Ashley</h1>
         <h2>An Engineer ready to make a career change.</h2>
       </div>
     </section>
+    <section id="About">
+      <div class="">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum
+          tempus egestas sed sed. Vitae tempus quam pellentesque nec nam aliquam
+          sem et. Tempus quam pellentesque nec nam aliquam sem et tortor
+          consequat. Facilisi morbi tempus iaculis urna id. Sollicitudin nibh
+          sit amet commodo. Massa vitae tortor condimentum lacinia quis.
+          Porttitor leo a diam sollicitudin tempor. Facilisis magna etiam tempor
+          orci. Eget mi proin sed libero enim sed faucibus turpis in. Semper
+          eget duis at tellus at. Ut eu sem integer vitae justo eget. Nisi lacus
+          sed viverra tellus in hac habitasse platea dictumst. Lectus nulla at
+          volutpat diam ut venenatis tellus.
+          <br />
+          Faucibus interdum posuere lorem ipsum dolor sit amet. Amet porttitor
+          eget dolor morbi non arcu risus. Eget duis at tellus at urna
+          condimentum. Nulla aliquet enim tortor at auctor urna nunc id cursus.
+          Diam vel quam elementum pulvinar etiam non. At ultrices mi tempus
+          imperdiet. Eget nunc lobortis mattis aliquam. Risus quis varius quam
+          quisque id diam vel quam elementum. Donec ac odio tempor orci dapibus
+          ultrices in. Vitae justo eget magna fermentum iaculis eu non diam.
+          Euismod elementum nisi quis eleifend quam adipiscing vitae proin
+          sagittis. At in tellus integer feugiat. Dolor morbi non arcu risus.
+          Nulla posuere sollicitudin aliquam ultrices. Id ornare arcu odio ut
+          sem. Dolor sit amet consectetur adipiscing elit duis tristique. Elit
+          duis tristique sollicitudin nibh sit amet commodo. Felis eget nunc
+          lobortis mattis aliquam.
+        </p>
+      </div>
+    </section>
+    <section id="FAC">
+      <div class="">
+        <h1>Why I want to join founders and coders</h1>
+        <h2></h2>
+      </div>
+    </section>
+
     <section class="progress">
       <div>
         <h1>View my progress</h1>
         <ul>
           <li id="codewars" class="resources">
-            <a href="https://www.codewars.com/users/Cerulean-Ash"
-              ><input
-                type="image"
+            <a
+              href="https://www.codewars.com/users/Cerulean-Ash"
+              target="”_blank”"
+            >
+              <img
+                class="icon"
+                src="./resources/Images/cib-codewars-dark.svg"
+                alt="Codewars"
+                width="90"
+                height="auto"
+              />
+              <img
                 src="https://www.codewars.com/users/Cerulean-Ash/badges/large"
                 alt="Codewars Banner"
+                width="auto"
+                height="auto"
+              />
+            </a>
+          </li>
+          <li id="github" class="resources">
+            <a href="https://github.com/Cerulean-Ash" target="”_blank”"
+              ><img
+                src="./resources/Images/9919.png"
+                alt="GitHub"
+                width="100"
+                height="auto"
             /></a>
           </li>
-          <li id="github" class="resources">GitHub</li>
-          <li id="freecodecamp" class="resources">free code camp</li>
+          <li id="freecodecamp" class="resources">
+            <a
+              href="https://www.freecodecamp.org/cerulean-ash"
+              target="”_blank”"
+              ><img
+                src="./resources/Images/fcc_primary_small.png"
+                alt="freecodecamp"
+                width="100px"
+                height="auto"
+            /></a>
+          </li>
         </ul>
       </div>
     </section>
-    <section class="contact">
-      <div>
+    <footer>
+      <div class="contact">
         <h1>Say hi</h1>
         <h2>email: ashleylampard@live.com</h2>
         <h2>phone: +44 7311 706 581</h2>
       </div>
-    </section>
+    </footer>
     <script>
       // Your JavaScript goes here!
       console.log("Hello, World!");
