@@ -6,16 +6,25 @@
     <meta charset="UTF-8" />
   </head>
   <body>
-    <header class="flex-container">
-      <nav id="navBar" class="sideNav">
+    <header class="header">
+      <nav id="navbar" class="sideNav">
+        <div class="toggleButton" onclick="toggleNavbar()">
+          <img
+            class="toggle"
+            src="./resources/Images/menu-icon-dark.svg"
+            alt="menbutton"
+            width="60"
+            height="30"
+          />
+        </div>
         <ul class="navList">
-          <li class="menu"><a href="#" id="a">About Me</a></li>
-          <li class="menu"><a href="#" id="b">FAC</a></li>
-          <li class="menu"><a href="#" id="c">My Progress</a></li>
-          <li class="menu"><a href="#" id="d">Contacts</a></li>
+          <li class="menu"><a href="#about">About Me</a></li>
+          <li class="menu"><a href="#fac">FAC</a></li>
+          <li class="menu"><a href="#progress">My Progress</a></li>
+          <li class="menu"><a href="#contact">Contacts</a></li>
         </ul>
         <div class="toTop">
-          <a href="#" id="e">Jump to Top</a>
+          <a href="#greetings" id="e">Jump to Top</a>
         </div>
       </nav>
     </header>
@@ -26,7 +35,7 @@
         <h2>An Engineer ready to make a career change.</h2>
       </div>
     </section>
-    <section id="About">
+    <section id="about">
       <div class="">
         <h1>About Me</h1>
         <p>
@@ -58,14 +67,40 @@
         </p>
       </div>
     </section>
-    <section id="FAC">
+    <section id="fac">
       <div class="">
         <h1>Why I want to join founders and coders</h1>
-        <h2></h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum
+          tempus egestas sed sed. Vitae tempus quam pellentesque nec nam aliquam
+          sem et. Tempus quam pellentesque nec nam aliquam sem et tortor
+          consequat. Facilisi morbi tempus iaculis urna id. Sollicitudin nibh
+          sit amet commodo. Massa vitae tortor condimentum lacinia quis.
+          Porttitor leo a diam sollicitudin tempor. Facilisis magna etiam tempor
+          orci. Eget mi proin sed libero enim sed faucibus turpis in. Semper
+          eget duis at tellus at. Ut eu sem integer vitae justo eget. Nisi lacus
+          sed viverra tellus in hac habitasse platea dictumst. Lectus nulla at
+          volutpat diam ut venenatis tellus.
+          <br />
+          Faucibus interdum posuere lorem ipsum dolor sit amet. Amet porttitor
+          eget dolor morbi non arcu risus. Eget duis at tellus at urna
+          condimentum. Nulla aliquet enim tortor at auctor urna nunc id cursus.
+          Diam vel quam elementum pulvinar etiam non. At ultrices mi tempus
+          imperdiet. Eget nunc lobortis mattis aliquam. Risus quis varius quam
+          quisque id diam vel quam elementum. Donec ac odio tempor orci dapibus
+          ultrices in. Vitae justo eget magna fermentum iaculis eu non diam.
+          Euismod elementum nisi quis eleifend quam adipiscing vitae proin
+          sagittis. At in tellus integer feugiat. Dolor morbi non arcu risus.
+          Nulla posuere sollicitudin aliquam ultrices. Id ornare arcu odio ut
+          sem. Dolor sit amet consectetur adipiscing elit duis tristique. Elit
+          duis tristique sollicitudin nibh sit amet commodo. Felis eget nunc
+          lobortis mattis aliquam.
+        </p>
       </div>
     </section>
 
-    <section class="progress">
+    <section id="progress">
       <div>
         <h1>View my progress</h1>
         <ul>
@@ -113,15 +148,14 @@
       </div>
     </section>
     <footer>
-      <div class="contact">
+      <div id="contact">
         <h1>Say hi</h1>
         <h2>email: ashleylampard@live.com</h2>
         <h2>phone: +44 7311 706 581</h2>
       </div>
     </footer>
-    <script>
+    <script type="text/javascript" src="script.js">
       // Your JavaScript goes here!
-      console.log("Hello, World!");
     </script>
   </body>
 </html>
