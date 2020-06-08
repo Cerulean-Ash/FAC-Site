@@ -7,26 +7,46 @@
   </head>
   <body>
     <header class="">
+      <!--Navigation bar-->
       <nav id="navbar" class="sideNav">
+        <!--progress bar-->
         <div class="header">
           <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
           </div>
         </div>
+        <!--toggle menu button-->
         <div class="toggleButton" onclick="toggleNavbar()">
           <img
+            id="toggle"
             class="toggle"
             src="./resources/Images/menu-icon-dark.svg"
-            alt="menbutton"
+            alt="toggle menu button"
             width="60"
             height="30"
           />
         </div>
+        <!--Navigation menu list-->
         <ul class="navList">
-          <li class="menu"><a href="#about">About Me</a></li>
-          <li class="menu"><a href="#fac">FAC</a></li>
-          <li class="menu"><a href="#progress">My Progress</a></li>
-          <li class="menu"><a href="#contact">Contacts</a></li>
+          <li class="menu">
+            <a href="#about"
+              ><img
+                class="icons"
+                id="icon"
+                src="./resources/Images/about-dark.svg"
+                alt=""
+                width="60"
+                height="30"
+            /></a>
+            <a class="menu-text" href="#about">About Me</a>
+          </li>
+          <li class="menu"><a class="menu-text" href="#fac">FAC</a></li>
+          <li class="menu">
+            <a class="menu-text" href="#progress">My Progress</a>
+          </li>
+          <li class="menu">
+            <a class="menu-text" href="#contact">Contacts</a>
+          </li>
         </ul>
         <div class="toTop">
           <a href="#greetings" id="e">Jump to Top</a>
@@ -108,6 +128,8 @@
     <section id="progress">
       <div>
         <h1>View my progress</h1>
+        <br />
+        <p>You can check out my work by clicking on the icons below</p>
         <ul>
           <li id="codewars" class="resources">
             <a
@@ -154,7 +176,7 @@
     </section>
     <footer>
       <div id="contact">
-        <h1>Say hi</h1>
+        <h1>Drop me a line</h1>
         <h2>email: ashleylampard@live.com</h2>
         <h2>phone: +44 7311 706 581</h2>
       </div>

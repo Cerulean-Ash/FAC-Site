@@ -1,5 +1,10 @@
 const toggleNavbar = () => {
   document.getElementById("navbar").classList.toggle("active");
+  document.getElementById("toggle").classList.toggle("active");
+  let menuText = document.getElementsByClassName("menu-text");
+  for (let i = 0; i < menuText.length; i++) {
+    menuText[i].classList.toggle("active");
+  }
 };
 
 // When the user scrolls the page, execute myFunction
